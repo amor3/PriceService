@@ -25,12 +25,12 @@ public class PriceService {
 
     static {
         // Source, Dest, TravelDate
-        ROUTE_PRICES.add(Arrays.asList("TICKET_1", "24 kr"));
-        ROUTE_PRICES.add(Arrays.asList("TICKET_2", "25 kr"));
-        ROUTE_PRICES.add(Arrays.asList("TICKET_3", "26 kr"));
-        ROUTE_PRICES.add(Arrays.asList("TICKET_4", "27 kr"));
-        ROUTE_PRICES.add(Arrays.asList("TICKET_5", "28 kr"));
-        ROUTE_PRICES.add(Arrays.asList("TICKET_6", "29 kr"));
+        ROUTE_PRICES.add(Arrays.asList("TICKET_1", "640 kr"));
+        ROUTE_PRICES.add(Arrays.asList("TICKET_2", "650 kr"));
+        ROUTE_PRICES.add(Arrays.asList("TICKET_3", "660 kr"));
+        ROUTE_PRICES.add(Arrays.asList("TICKET_4", "670 kr"));
+        ROUTE_PRICES.add(Arrays.asList("TICKET_5", "680 kr"));
+        ROUTE_PRICES.add(Arrays.asList("TICKET_6", "690 kr"));
     }
 
     @WebMethod(operationName = "checkPrice")
